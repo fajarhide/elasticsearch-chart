@@ -40,7 +40,7 @@ Below are the supported configuration options that can be overridden or customiz
 
 1. Install minikube binary and run `minikube start` (or use your own preferred method of getting a Kubernetes cluster up and running)
 2. Install helm client and run `helm init` (this will run Tiller on your minikube cluster)
-3. Clone this repository:`git clone https://github.com/bodom0015/elasticsearch2-helm && cd elasticsearch2-helm`
+3. Clone this repository:`git clone https://github.com/fajarhide/elasticsearch-chart && cd elasticsearch-chart`
 4. Modify parameters as desired: `vi values.yaml`
 5. Deploy the Helm chart: `helm upgrade --install es2 .`
 
