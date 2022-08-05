@@ -53,7 +53,7 @@ spec:
                   apiVersion: v1
                   fieldPath: metadata.name
             - name: ES_JAVA_OPTS
-              value: '-Xms512m -Xmx512m'
+              value: '-Xms2g -Xmx2g'
           volumeMounts:
             - name: es-config
               mountPath: /usr/share/elasticsearch/config/elasticsearch.yml
